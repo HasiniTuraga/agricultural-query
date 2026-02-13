@@ -19,7 +19,7 @@ st.write("AI-powered agricultural query assistant with Offline + Online Mode")
 # 🔹 GOOGLE GEMINI API SETUP
 # ==============================
 
-api_key = st.sidebar.text_input("AIzaSyA_sS8aRASAs8_hz9039HqYlU74PNOnKWA", type="password")
+api_key = st.sidebar.text_input("AIzaSyB_2EnAS9jxB7FEmpFLWBVIcUunX2kdaeE", type="password")
 
 if api_key:
     genai.configure(api_key=api_key)
@@ -144,3 +144,4 @@ if st.button("Get Answer"):
 
 st.markdown("---")
 st.caption("Built using Streamlit + FAISS + Sentence Transformers + Google Gemini")
+
